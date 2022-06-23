@@ -1,0 +1,6 @@
+[alias]
+    unstage = reset HEAD --
+    last = log -1 HEAD
+
+[include]
+    path = ~/Docs/.dotfiles/.localdots/.gitconfig
